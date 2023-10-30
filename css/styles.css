@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error--menssage{
+    color: red;
+    font-size: 12px;
+}
+
+.price--menssage{
+    color: green;
+    font-size: 12px;
+}
