@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 0.75rem;
     background: rgb(0,230,255);
     background: linear-gradient(153deg, rgba(0,230,255,1) 0%, rgba(9,23,121,1) 62%, rgba(0,8,36,1) 100%); 
 }
@@ -19,13 +19,13 @@ header {
 
 .container_logo--logo {
     max-width: 4rem;
-    border-radius: 60%;
+    border-radius: 50%;
 }
 
 .container_logo--text{
     padding: 1rem;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
@@ -47,6 +47,17 @@ header {
     display: none;
 }
 
+.error--menssage{
+    color: #ff0000;
+    font-size: 0.75rem;
+}
+
+.price--menssage{
+    color: #008000;
+    font-size: 0.75rem;
+}
+
+/* Media Queries */
 @media screen and (max-width: 720px) {
     .open-menu,
     .close-menu {
@@ -99,5 +110,35 @@ header {
 
 .container_welcome{
     padding: 2rem;
-    margin: auto;
+    margin: 2rem;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 25px;
+    background-color: #0869A6;
+    color: #ffffff;
+}
+
+.container_welcome p{
+    padding: 1rem 4rem;
+    font-style: italic;
+}
+
+.container_quienes-Somos{
+    background-color: #0587C1;
+    color: #ffffff;
+}
+
+.container_servicios{
+    background-color: #0759A3;
+    color: #ffffff;
+}
+
+.container_contacto {
+    background-color: #08156C;
+    color: #ffffff;
+}
+
+.container_footer{
+    background-color: #050D3F;
+    color: #ffffff;
 }
