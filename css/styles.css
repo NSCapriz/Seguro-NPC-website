@@ -24,9 +24,11 @@ header {
 
 .container_logo--text{
     padding: 1rem;
+    margin-left: 1rem;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 .nav-list {
@@ -110,7 +112,7 @@ header {
 
 .container_welcome{
     padding: 2rem;
-    margin: 2rem;
+    margin: 2rem 3rem;
     text-align: center;
     border: solid 1px;
     border-radius: 25px;
@@ -119,24 +121,59 @@ header {
 }
 
 .container_welcome p{
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     font-style: italic;
+    font-size: 1.2rem;
 }
 
 .container_quienes-Somos{
     background-color: #0587C1;
     color: #ffffff;
+    margin: 0 0.1rem;
+    border-radius: 25px;
+}
+
+.container_quienes-Somos img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.container_quienes-Somos p{
+    font-size: 1.1rem;
 }
 
 .container_servicios{
     background-color: #0759A3;
     color: #ffffff;
+    margin: 0 0.1rem;
+    border-radius: 25px;
+}
+
+.container_servicios img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.container_servicios p{
+    font-size: 1.1rem;
 }
 
 .container_contacto {
     background-color: #08156C;
     color: #ffffff;
+    margin: 0 0.1rem;
+    border-radius: 25px;
 }
+
+.container_contacto img {
+    width: 9rem;
+    height: 9rem;
+}
+
+.container_contacto p {
+    font-size: 1.1rem;
+}
+
 
 .container_footer{
     background-color: #050D3F;
