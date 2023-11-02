@@ -89,7 +89,7 @@ header {
         top: 0;
         right: 0;
         bottom: 0;
-        background: rgb(9,9,121);
+        background: #090979;
         background: linear-gradient(90deg, rgba(9,9,121,1) 55%, rgba(2,0,36,1) 100%); 
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
@@ -109,6 +109,14 @@ header {
         color: #ecececec;
     }
 }
+
+@media screen and (min-width: 720px){
+
+    .container_nosotros--asiSomos .col-md-4{
+        border-left: solid 2px #4a4453;
+    }
+
+} 
 
 .container_welcome{
     padding: 2rem;
@@ -179,3 +187,32 @@ header {
     background-color: #050D3F;
     color: #ffffff;
 }
+
+.container_nosotros{
+    background-color: #ecfdf7;
+}
+
+.container_nosotros--titulo{
+    background-color: #007e65;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.container_nosotros--text{
+    background-color: #a89bff;
+    color: #fefedf;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+.container_nosotros--asiSomos{
+    background-color: #41edce;
+    border-radius: 15px;
+    color: #4a4453;
+}
+
+.container_nosotros--asiSomos h2, p{
+    font-style: italic;
+}
+
