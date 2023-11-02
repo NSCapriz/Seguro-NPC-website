@@ -192,7 +192,7 @@ header {
     background-color: #ecfdf7;
 }
 
-.container_nosotros--titulo{
+.container_nosotros h1{
     background-color: #007e65;
     color: #ffffff;
     border-radius: 25px;
@@ -216,3 +216,35 @@ header {
     font-style: italic;
 }
 
+.container_descripciónServicios h1 {
+    background-color: #007e65;
+    color: #ffffff;
+    border-radius: 25px;
+}
+.container_PackServicios--descripcion{
+    background-color: #5B706C;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.container_PackServicios--descripcion p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+}
+
+.container_packs {
+    border-radius: 25px;
+}
+
+.container_packs .border{
+    border-radius: 15px;
+}
+
+.oculto{
+    display: none;
+}
+.contenidoBasico, .contenidoIntermedio, .contenidoPremium{
+    display: block;
+}
