@@ -55,7 +55,7 @@ header {
 }
 
 .price--menssage{
-    color: #008000;
+    color: #007900;
     font-size: 0.75rem;
 }
 
@@ -245,6 +245,26 @@ header {
 .oculto{
     display: none;
 }
+
 .contenidoBasico, .contenidoIntermedio, .contenidoPremium{
     display: block;
+}
+
+.container__atencion{
+    background: linear-gradient(rgba(48, 71, 124, 0.349), rgba(7, 11, 19, 0.75)), url("../assets/img/descarga.jfif"), no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.container__forms--fomulario{
+    background: rgba(255, 255, 255, 0.438);
+    box-shadow: 0 8px 32px 0 rgba(109, 109, 250, 0.37);
+    backdrop-filter: blur(2px);
+  }
+
+.container_contacto--titulo{
+    background-color: #007e65;
+    color: #ffffff;
+    border-radius: 25px;
 }
