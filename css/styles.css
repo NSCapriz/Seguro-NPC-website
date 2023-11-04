@@ -49,6 +49,150 @@ header {
     display: none;
 }
 
+.container_welcome{
+    padding: 2rem;
+    margin: 2rem 3rem;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 25px;
+    background-color: #0869A6;
+    color: #ffffff;
+}
+
+.container_welcome p{
+    padding: 1rem 2.2rem;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.container_quienes-Somos{
+    background-color: #0587C1;
+    color: #ffffff;
+    margin: 0 0.1rem;
+    border-radius: 25px;
+}
+
+.container_quienes-Somos img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.container_quienes-Somos p{
+    font-size: 1.1rem;
+}
+
+.container_servicios{
+    background-color: #0759A3;
+    color: #ffffff;
+    margin: 0 0.1rem;
+    border-radius: 25px;
+}
+
+.container_servicios img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.container_servicios p{
+    font-size: 1.1rem;
+}
+
+.container_contacto {
+    background-color: #08156C;
+    color: #ffffff;
+    margin: 0 0.1rem;
+    border-radius: 25px;
+}
+
+.container_contacto img {
+    width: 9rem;
+    height: 9rem;
+}
+
+.container_contacto p {
+    font-size: 1.1rem;
+}
+
+.container_nosotros{
+    background-color: #ecfdf7;
+}
+
+.container_nosotros h1{
+    background-color: #007e65;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.container_nosotros--text{
+    background-color: #a89bff;
+    color: #fefedf;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+.container_nosotros--asiSomos{
+    background-color: #41edce;
+    border-radius: 15px;
+    color: #4a4453;
+}
+
+.container_nosotros--asiSomos h2, p{
+    font-style: italic;
+}
+
+.container_descripciónServicios h1 {
+    background-color: #007e65;
+    color: #ffffff;
+    border-radius: 25px;
+}
+.container_PackServicios--descripcion{
+    background-color: #5B706C;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.container_PackServicios--descripcion p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+}
+
+.container_packs {
+    border-radius: 25px;
+}
+
+.container_packs .border{
+    border-radius: 15px;
+}
+
+.container_card--servicios{
+    min-height: 45rem;
+}
+
+.oculto{
+    display: none;
+}
+
+.contenidoBasico, .contenidoIntermedio, .contenidoPremium{
+    display: block;
+}
+
+.container__atencion{
+    background: linear-gradient(rgba(48, 71, 124, 0.349), rgba(7, 11, 19, 0.75)), url("../assets/img/descarga.jfif"), no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.container__forms--fomulario{
+    background: rgba(255, 255, 255, 0.438);
+    box-shadow: 0 8px 32px 0 rgba(109, 109, 250, 0.37);
+    backdrop-filter: blur(2px);
+}
+
+
 .error--menssage{
     color: #ff0000;
     font-size: 0.75rem;
@@ -57,6 +201,17 @@ header {
 .price--menssage{
     color: #007900;
     font-size: 0.75rem;
+}
+
+.container_contacto--titulo{
+    background-color: #007e65;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.container_footer{
+    background-color: #050D3F;
+    color: #ffffff;
 }
 
 /* Media Queries */
@@ -118,153 +273,3 @@ header {
 
 } 
 
-.container_welcome{
-    padding: 2rem;
-    margin: 2rem 3rem;
-    text-align: center;
-    border: solid 1px;
-    border-radius: 25px;
-    background-color: #0869A6;
-    color: #ffffff;
-}
-
-.container_welcome p{
-    padding: 1rem 2rem;
-    font-style: italic;
-    font-size: 1.2rem;
-}
-
-.container_quienes-Somos{
-    background-color: #0587C1;
-    color: #ffffff;
-    margin: 0 0.1rem;
-    border-radius: 25px;
-}
-
-.container_quienes-Somos img{
-    width: 9rem;
-    height: 9rem;
-}
-
-.container_quienes-Somos p{
-    font-size: 1.1rem;
-}
-
-.container_servicios{
-    background-color: #0759A3;
-    color: #ffffff;
-    margin: 0 0.1rem;
-    border-radius: 25px;
-}
-
-.container_servicios img{
-    width: 9rem;
-    height: 9rem;
-}
-
-.container_servicios p{
-    font-size: 1.1rem;
-}
-
-.container_contacto {
-    background-color: #08156C;
-    color: #ffffff;
-    margin: 0 0.1rem;
-    border-radius: 25px;
-}
-
-.container_contacto img {
-    width: 9rem;
-    height: 9rem;
-}
-
-.container_contacto p {
-    font-size: 1.1rem;
-}
-
-
-.container_footer{
-    background-color: #050D3F;
-    color: #ffffff;
-}
-
-.container_nosotros{
-    background-color: #ecfdf7;
-}
-
-.container_nosotros h1{
-    background-color: #007e65;
-    color: #ffffff;
-    border-radius: 25px;
-}
-
-.container_nosotros--text{
-    background-color: #a89bff;
-    color: #fefedf;
-    font-weight: bolder;
-    border-radius: 25px;
-    font-size: 1.2rem;
-}
-
-.container_nosotros--asiSomos{
-    background-color: #41edce;
-    border-radius: 15px;
-    color: #4a4453;
-}
-
-.container_nosotros--asiSomos h2, p{
-    font-style: italic;
-}
-
-.container_descripciónServicios h1 {
-    background-color: #007e65;
-    color: #ffffff;
-    border-radius: 25px;
-}
-.container_PackServicios--descripcion{
-    background-color: #5B706C;
-    border-radius: 25px;
-    color: #ffffff;
-}
-
-.container_PackServicios--descripcion p{
-    text-align: center;
-    font-weight: 200;
-    font-size: 1.2rem;
-    padding: 1rem 3rem;
-}
-
-.container_packs {
-    border-radius: 25px;
-}
-
-.container_packs .border{
-    border-radius: 15px;
-}
-
-.oculto{
-    display: none;
-}
-
-.contenidoBasico, .contenidoIntermedio, .contenidoPremium{
-    display: block;
-}
-
-.container__atencion{
-    background: linear-gradient(rgba(48, 71, 124, 0.349), rgba(7, 11, 19, 0.75)), url("../assets/img/descarga.jfif"), no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 2rem;
-}
-
-.container__forms--fomulario{
-    background: rgba(255, 255, 255, 0.438);
-    box-shadow: 0 8px 32px 0 rgba(109, 109, 250, 0.37);
-    backdrop-filter: blur(2px);
-  }
-
-.container_contacto--titulo{
-    background-color: #007e65;
-    color: #ffffff;
-    border-radius: 25px;
-}

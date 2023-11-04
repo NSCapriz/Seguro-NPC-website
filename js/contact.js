@@ -2,8 +2,8 @@ document.getElementById('contactForm').addEventListener('submit', (event) =>{
     event.preventDefault() 
 
 //Validación Nombre
-let nombre = document.getElementById('name');
-let nameError = document.getElementById('nameError');
+const nombre = document.getElementById('name');
+const nameError = document.getElementById('nameError');
 
 if (nombre.value.trim() === ''){
     nameError.textContent = 'Por favor, introduzca su nombre.'
@@ -15,8 +15,8 @@ else {
 }
 
 //Validación Apellido
-let apellido = document.getElementById('lastname');
-let lastnameError = document.getElementById('lastnameError');
+const apellido = document.getElementById('lastname');
+const lastnameError = document.getElementById('lastnameError');
 
 if (apellido.value.trim() === ''){
     lastnameError.textContent = 'Por favor, introduzca su apellido.'
@@ -28,8 +28,8 @@ else {
 }
 
 //Validación DNI
-let dni = document.getElementById('dni');
-let dniError = document.getElementById('dniError');
+const dni = document.getElementById('dni');
+const dniError = document.getElementById('dniError');
 
 if (dni.value.trim() === '' || dni.value.length < 7){
     dniError.textContent = 'Por favor, introduzca su DNI (Debe ser válido).'
@@ -41,10 +41,10 @@ else {
 }
 
 //Validación Email
-let email = document.getElementById('email');
-let emailError = document.getElementById('emailError');
+const email = document.getElementById('email');
+const emailError = document.getElementById('emailError');
 // Patrón de validación 
-let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
 
 if (!emailPattern.test(email.value)){
     emailError.textContent = 'Por favor, introduzca un email válido.';
@@ -56,8 +56,8 @@ if (!emailPattern.test(email.value)){
 
 
 //Validación Teléfono
-let telephone = document.getElementById('telephone');
-let telephoneError = document.getElementById('telephoneError');
+const telephone = document.getElementById('telephone');
+const telephoneError = document.getElementById('telephoneError');
 
 if (telephone.value.trim() === ''){
     telephoneError.textContent = 'Por favor, introduzca su teléfono.'
@@ -69,8 +69,8 @@ else {
 }
 
 //Validación de tipos de seguro
-let tipoSeguro = document.getElementById('options').value;
-let secureOptionsError = document.getElementById('secureOptionsError');
+const tipoSeguro = document.getElementById('options').value;
+const secureOptionsError = document.getElementById('secureOptionsError');
 
 if (tipoSeguro == 'default'){
     secureOptionsError.textContent = 'Por favor, seleccione un tipo de seguro';
@@ -84,7 +84,12 @@ else {
 //Envio de formulario correcto
 
 if (!nameError.textContent && !lastnameError.textContent && !dniError.textContent && !emailError.textContent && !telephoneError.textContent && !secureOptionsError.textContent){
-    alert('Sus datos se han enviado con éxito');
+    Swal.fire({
+        icon: 'success',
+        title: 'Tu consulta ha sido registrada con éxito',
+        text: 'En breve, nos pondremos en contacto con vos para ayudarte y solventar todas tus dudas!',
+        confirmButtonText: 'Aceptar'
+        });
     document.getElementById('contactForm').reset();
 }
 })
